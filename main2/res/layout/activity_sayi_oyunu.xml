@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SayiOyunu"
+    android:orientation="vertical"
+    android:background="#333"
+    android:padding="10dp"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0 - 100 Arasında Bir Sayı Tuttum\nTahmin Et..."
+        android:textColor="#aaa"
+        android:textSize="20dp"/>
+    <Button
+        android:id="@+id/up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" /\\ "/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#03c"
+            android:layout_weight="1"
+            android:text="0"/>
+        <Button
+            android:id="@+id/try_"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dene"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/down"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" \\/ "/>
+
+</LinearLayout>

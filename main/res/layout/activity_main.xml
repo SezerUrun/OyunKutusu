@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="#222">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir Oyun Seçin"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:layout_margin="5dp"
+                android:textColor="@color/beyaz"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Araba Yarışı"
+                android:id="@+id/arabaYarisi"
+                android:background="@color/siyah"
+                android:textColor="@color/beyaz"
+                android:layout_margin="5dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hafıza Oyunu"
+                android:id="@+id/hafizaOyunu"
+                android:background="@color/siyah"
+                android:textColor="@color/beyaz"
+                android:layout_margin="5dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mayın Tarlası"
+                android:id="@+id/mayinTarlasi"
+                android:background="#000"
+                android:textColor="@color/beyaz"
+                android:layout_margin="5dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Minyon Vurma"
+                android:id="@+id/minyon"
+                android:background="@color/siyah"
+                android:textColor="@color/beyaz"
+                android:layout_margin="5dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tank Savaşı"
+                android:id="@+id/savasOyunu"
+                android:background="@color/siyah"
+                android:textColor="@color/beyaz"
+                android:layout_margin="5dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Taş Kağıt Makas"
+                android:id="@+id/tasKagitMakas"
+                android:background="@color/siyah"
+                android:textColor="@color/beyaz"
+                android:layout_margin="5dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Uçan Kuş"
+                android:id="@+id/ucanKus"
+                android:background="@color/siyah"
+                android:textColor="@color/beyaz"
+                android:layout_margin="5dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Uzay Savaşı"
+                android:id="@+id/uzaySavasi"
+                android:background="@color/siyah"
+                android:textColor="@color/beyaz"
+                android:layout_margin="5dp"/>
+
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-2616577523967769/2964880393"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#111</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#3cc</color>
+    <color name="siyah">#000</color>
+    <color name="gri">#555</color>
+    <color name="kirmizi">#f00</color>
+    <color name="yesil">#1c1</color>
+    <color name="sari">#fc0</color>
+    <color name="beyaz">#fff</color>
+    <color name="mavi">#0af</color>
+</resources>
